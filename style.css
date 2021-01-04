@@ -70,7 +70,7 @@ img{
     margin: 0 auto;
     border: 10px solid transparent;
     z-index: 100;
-  
+    overflow :hidden;
     white-space: nowrap;
     box-sizing: border-box;
   }
@@ -78,7 +78,7 @@ img{
     height:150px;
     width: 200px;
     position: relative;
-  
+    overflow :hidden;
     display: inline-block;
     font-size: 15px;
     transition: all 1s cubic-bezier(0.4, 1.3, 0.65, 1); /* Slide css animation */
